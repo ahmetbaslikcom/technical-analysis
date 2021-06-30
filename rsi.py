@@ -13,4 +13,4 @@ def rsi(veri,period): # veri-> closing values
 
     rsi=100 - 100 / (1 + rs)
 
-    return rsi
+    return rsi 
