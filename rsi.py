@@ -1,5 +1,5 @@
-def rsi(veri,period): # veri-> closing values
-    delta = veri.diff().dropna()
+def rsi(data,period): # data-> closing values
+    delta = data.diff().dropna()
     u = delta * 0
     d = u.copy()
     u[delta > 0] = delta[delta > 0]
